@@ -2,6 +2,7 @@ import { POKEMON_TYPES, POKEMON_ATTRIBUTES }  from '@/data/pokemon';
 
 import styles from './Card.module.scss';
 
+
 const Card = ({ attributes = POKEMON_ATTRIBUTES, image = {} }) => {
   const type = attributes.type?.toLowerCase();
   const weakness = attributes.weakness?.toLowerCase();

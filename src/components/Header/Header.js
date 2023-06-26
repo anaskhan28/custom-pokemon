@@ -16,7 +16,12 @@ const Header = () => {
         </p>
         <ul className={styles.headerLinks}>
           <li>
-            <a href="https://github.com/colbyfayock" rel="noreferrer">
+          <Link href="/pokemons">
+            Your Pokemon
+            </Link>
+          </li>
+          <li>
+            <a href="https://github.com/anaskhan28" rel="noreferrer">
               <FaGithub />
             </a>
           </li>
